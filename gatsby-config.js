@@ -130,5 +130,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-social9-comment`,
     },
+    {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        config: {
+          clientID: 'a3f781f88444ee0792ef',
+          clientSecret: 'e154a68926e17d6f3acda2afd6ffb291ad6c9467',
+          repo: 'gatsby-blog-with-social9-comments',
+          owner: 'Velprathap89',
+          admin: ['Velprathap89']
+        }
+
+      }
+    },
   ],
 }
